@@ -15,6 +15,10 @@ export default function RootLayout() {
       <Stack.Screen name="user_create" options={{
         headerTitle: ''
       }}/>
+      <Stack.Screen name="internas" options={{
+        headerShown: false,
+        headerTitle: ''
+      }}/>
 
     </Stack>
   );
